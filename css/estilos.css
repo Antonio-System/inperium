@@ -54,7 +54,7 @@ nav> ul> .div-buscar{
 	display: inline-block;
 	top: 0;
 	right: 0;
-	width: 40px;
+	width:40px;
 	height: 40px;
 	line-height: 40px;
 	font-size: 20px;
@@ -71,7 +71,7 @@ nav> ul> .div-buscar{
 
 
 nav> ul {
-	width: 475px;
+	width: 426px;
 	list-style:none;
 	padding:0;
 	margin:0;
@@ -89,7 +89,7 @@ nav> ul:first-child {
 	justify-content: flex-start;
 	list-style:none;
 	padding:0;
-	margin-left:8%;
+	/*margin-left:8%;*/
 	overflow:hidden;
 }
 
@@ -98,11 +98,11 @@ nav> ul:last-child {
 	align-self: center;
 	list-style:none;
 	padding:0;
-	margin-right:8%;
+	/*margin-right:8%;*/
 	overflow:hidden;
 }
 nav> ul> div> div> i{
-	color: rgb(248, 248, 248);
+	color: rgb(26, 26, 26);
 }
 .div-buscar:hover i{
 	color: rgb(26, 26, 26);
@@ -114,6 +114,12 @@ nav > ul > li {
 
 nav > ul> img{
 	margin-top: 12px;
+}
+
+nav > ul> img:hover{
+	opacity:0.4;
+	filter:alpha(opacity=40); 
+	transition: all 0.3s ease;
 }
 
 nav ul li a {
@@ -164,13 +170,13 @@ nav ul li .conten-rojo {
 	display:none;
 }
 nav> ul> li >div > div {
-	width:1425px;
+	width:1280px;
+
 	background:  rgb(248, 248, 248);
 	position: relative;
 	/*left: 8%;*/
 	display: none;
 }
-
 
 nav> ul >li >div >div >ul{
 	/*width:20%;*/
@@ -327,7 +333,7 @@ overflow: hidden;
 	padding: 0px;
 	min-width: 450px;
 	min-height: 700px;
-	height: 800px;
+	height: 900px;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
@@ -350,7 +356,6 @@ h2{
 	font-family: 'Heebo', sans-serif;
 	font-weight: 580;
 	letter-spacing: 0.18em;
-
 }
 
 button{
@@ -364,112 +369,4 @@ button{
 	letter-spacing: 0.1em;
 	background:rgb(248, 248, 248) ;
 	margin: 25px 0px 80px 0px;
-}
-
-/* Footer*/
-footer{
-	background: white;
-}
-
-.conten-footer{
-	background:  white;/* rgb(233, 233, 233);*/
-	margin: 50px 0px 0px 0px ;
-	padding: 0px 0px 0px 0px;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;	
-}
-
-.footer-grey{
-	background: rgb(248, 248, 248);
-	width: 100%;
-	min-width: 100%;
-	max-width: 100%;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-}
-.conten-icon{
-	margin: 25px;
-
-;}
-
-.conten-link{
-	width: 1440px;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	overflow: hidden;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-
-	justify-content: space-around;}
-
-.link-footer{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	flex: 1;
-	margin: 10px;
-}
-
-span{
-	margin: 5px;
-}
-
-.span-negritas{
-	font-weight: bold;
-}
-
-.suscripcion{
-	width: 1440px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.suscripcion> div{
-	margin-top: 15px;
-	overflow: hidden;
-}
-.suscripcion> .email_sing-up> input{
-	margin: 0px;
-	height: 45px;
-	width: 400px;
-}
-
-.suscripcion> .preferencias> input{
-	margin: 0px 15px;	
-}
-.btn-Sing-up{
-	background-color: black;
-	color: blanchedalmond;
-	margin: 0px;
-	height: 45px;
-}
-.terminos{
-	width: 1440px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	margin: 40px 0px 20px 0px;
-	padding-top: 40px;
-	border-top: 0.5px solid rgba(179, 177, 177, 0.514);
-}
-
-.terminos> span{
-	margin: 0px 20px;
-}
-.antex{
-	margin: 0px 0px 50px 0px;
 }

@@ -1,0 +1,111 @@
+/* Footer*/
+footer{
+	background: white;
+}
+
+.conten-footer{
+	background:  white;/* rgb(233, 233, 233);*/
+	margin: 50px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;	
+}
+
+.footer-grey{
+	background: rgb(248, 248, 248);
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.conten-icon{
+	margin: 25px;
+
+;}
+
+.conten-link{
+	width: 1280px;
+    min-width: 992px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+	justify-content: space-around;}
+
+.link-footer{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	flex: 1;
+	margin: 10px;
+}
+
+span{
+	margin: 5px;
+}
+
+.span-negritas{
+	font-weight: bold;
+}
+
+.suscripcion{
+	width: 1280px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.suscripcion> div{
+	margin-top: 15px;
+	overflow: hidden;
+}
+.suscripcion> .email_sing-up> input{
+	margin: 0px;
+	height: 45px;
+	width: 400px;
+}
+
+.suscripcion> .preferencias> input{
+	margin: 0px 15px;	
+}
+.btn-Sing-up{
+	background-color: black;
+	color: blanchedalmond;
+    width: 175px;
+	margin: 0px;
+	height: 45px;
+}
+.terminos{
+	width: 1280px;
+	min-width: 992px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0px 20px 0px;
+	padding-top: 40px;
+	border-top: 0.5px solid rgba(179, 177, 177, 0.514);
+}
+
+.terminos> span{
+	margin: 0px 20px;
+}
+.antex{
+	margin: 0px 0px 50px 0px;
+}

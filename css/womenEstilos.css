@@ -1,0 +1,20 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background: white;
+	font-family: 'Heebo', sans-serif;	
+	font-size: 14px;
+    width:100%;
+	max-width:100%;	
+}
+
+.men-woman-tag> ul> li:nth-child(3){
+	background: rgb(248, 248, 248);
+
+}
+.men-woman-tag> ul> li:nth-child(2):hover a{
+    color:rgba(117, 117, 117, 0.74);
+}
