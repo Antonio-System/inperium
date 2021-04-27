@@ -1,0 +1,179 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background: white;
+	font-family: 'Heebo', sans-serif;	
+	font-size: 14px;
+    width:100%;
+	max-width:100%;	
+}
+
+.men-woman-tag> ul> li:nth-child(2){
+	background: rgb(248, 248, 248);
+
+}
+.men-woman-tag> ul> li:last-child:hover a{
+    color:rgba(117, 117, 117, 0.74);
+}
+
+.body-men{
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider-banner-men{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background-image: url("../img/Hemp-HP-DESK-anim2.gif");
+	background-size: cover;
+}
+
+.banner-publicidad{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	margin-top: 35px;
+	background-image: url("../img/EWAIST-CROSSFIRES.gif");
+	background-size: cover;
+}
+
+.baner-cinta{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	margin-top: 35px;
+	background-image: url("../img/MARCH-HP-footer\ copy2.jpg");
+	background-size: cover;
+}
+
+.catg-clm{
+	margin: 20px 0px;
+	padding: 0;
+	position: relative;
+	width: 1280px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.catg-clm> .categorias-items2{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 30px 0px 30px 0px;
+}
+.catg-clm> .categorias-items4{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 50px 10px 30px 10px;
+}
+
+
+.catg-clm> .categorias-items2> img{
+	width: 580px;
+}
+
+.catg-clm> .categorias-items3> img{
+	width: 380px;
+}
+
+.catg-clm> .categorias-items4> img{
+	width: 310px;
+}
+
+.catg-clm> div> a{
+	margin: 5px 0px;
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+	letter-spacing: 0.14em;
+}
+
+h1{
+	margin: 5px 0px;
+	letter-spacing: 0.1em;
+}
+
+.articulos-clm4{
+	margin: 20px 0px;
+	padding: 0;
+	position: relative;
+	width: 1280px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.productos-items{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 30px 0px 30px 0px;
+}
+
+.img-producto{
+	background-image: url("../img/producto-items.jpg");
+	background-size: cover;
+	width: 290px;
+	height: 360px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+.productos-items p{
+	color: rgb(109, 102, 102);
+}
+
+.precioDiv{
+width: 100%;
+border-top:2px solid rgba(218, 211, 211, 0.836);
+}
+
+.btn-quick{
+	display: none;
+	width: 0;
+	height: 0;
+	font-size: 16px;
+	font-weight: 500;
+	color: rgb(110, 98, 98);
+	background: rgba(228, 208, 208, 0.541);
+	border: none;
+	
+}
+
+.img-producto:hover .btn-quick{
+	transition: all 0.5s ease;
+	width: 100%;
+	height: 40px;
+	display: inline-block;
+	background: rgba(248, 248, 248, 0.699);
+	color: rgba(75, 75, 75, 0.897);
+}
+
+h4{
+	letter-spacing: 00.1em;
+}

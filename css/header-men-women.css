@@ -1,0 +1,332 @@
+.header-men-women{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contegris{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background:  rgb(248, 248, 248);
+}
+
+.menu-superior{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px auto;
+    background:  white;
+    border-bottom: 1px solid rgb(248, 248, 248);
+}
+.conteblanco2{
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background:  white;
+
+}
+
+.nav-singIn{
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-singIn> ul{
+    margin: 10px 15px ;
+}
+
+.men-woman-tag{
+    display: inline-block;
+    width: 400px;
+    height: 80px;
+  
+}
+
+.men-woman-tag> ul{
+	list-style:none;    
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;	
+}
+
+.men-woman-tag> ul> li{
+    height: 80px;
+    width: 80px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;	
+	list-style:none;
+	overflow:hidden;	
+}
+.men-woman-tag> ul> li> a{
+	font-weight: 500;
+    color:rgb(15, 15, 15);
+	text-decoration: none;
+}
+
+.icon-shop{
+    width: 600px;
+    height: 80px; 
+}
+
+nav{
+    width: 1280px;
+    height: 80px;	
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+}
+.conten-azul {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+    width:1280px;
+	background:  rgb(248, 248, 248);
+	position: relative;
+
+}
+
+.conten-azul >ul{
+	display: flex;
+	float: left;
+	border-right:0px solid rgb(248, 248, 248);
+	box-sizing:border-box;
+}
+
+.conten-azul> ul:last-child {
+	border:none;
+}
+
+.conten-azul> ul .titulo {
+	color:#fff;
+	list-style:none;}
+
+.conten-azul> ul .titulo a {
+	color:rgb(46, 45, 45);
+	padding:30px 20px;
+}
+
+.gris {background:rgb(248, 248, 248);}
+
+.conten-azul> ul .titulo a:hover {
+	/*background:none;*/
+}
+
+.conten-azul> ul .titulo .cust {
+    background:#000;
+	color:#fff;;
+	list-style:none;}
+
+.conten-azul> ul li a {
+	color:#000;
+	padding: 0px;
+	margin: 0px;
+    text-decoration: none;
+}
+
+.conten-azul> ul li a:hover {
+	color:rgb(90, 87, 87);
+	text-decoration: underline;
+}
+
+/*///////////////////////////*/
+/*sub menu 2*/
+
+.conten-azul> ul li .submenu{
+	background: rgb(248, 248, 248);
+	padding: 0px;
+	position: absolute;	
+	display: none;
+}
+.conten-azul >ul >li:hover .submenu{
+	z-index: 10;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 50px;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 16px;	
+	border-bottom: 0.2px solid rgba(211, 209, 209, 0.849);
+	border-left:0.2px solid rgba(211, 209, 209, 0.849);
+	border-right:0.2px solid rgba(211, 209, 209, 0.849);
+}
+
+.conten-azul> ul> li> .men-Custom{
+	background: rgb(0, 0, 0);
+	border: none;
+	z-index: 10;
+}
+.conten-azul> ul> li> .men-Custom ul a{
+color:  rgb(248, 248, 248);
+
+}
+
+.men-Custom{ width: 224px; max-width: 225px; min-width: 223px;}
+.men-Boardshorts{ width: 234px; max-width: 235px; min-width: 233px;}
+.men-Clothing{ width: 288px; max-width: 289px; min-width: 287px;}
+.men-Tees{ width: 369px; max-width: 370px; min-width: 368px;}
+.men-Accessories{ width: 343px; max-width: 344px; min-width: 342px;}
+.men-Wetsuits{ width: 369px; max-width: 370px; min-width: 368px;}
+.men-Boys{ width: 386px; max-width: 387px; min-width: 385px; right: 195px;}
+.men-Collections{ width: 505px; max-width: 506px; min-width: 504px;right: 80px;}
+.men-Sale{ width: 288px; max-width: 289px; min-width: 287px; right: 0px;}
+.women-New{ width: 426px; max-width: 427px; min-width: 425px;}
+.women-Swim{ width: 369px; max-width: 370px; min-width: 368px;}
+.women-Clothing{ width: 349px; max-width: 350px; min-width: 348px;}
+.women-Dresses{ width: 343px; max-width: 344px; min-width: 342px;}
+.women-Accessories{ width: 343px; max-width: 344px; min-width: 342px;}
+.women-Shoes{ width: 254px; max-width: 255px; min-width: 253px;}
+.women-Wetsuits{ width: 391px; max-width: 392px; min-width: 390px;}
+.women-Collections{ width: 448px; max-width: 449px; min-width: 447px; right: 190px;}
+.women-Girls{ width: 313; max-width: 314px; min-width: 312px; right: 80px;}
+.women-Sale{ width: 285px; max-width: 286px; min-width: 284px; right: 0px;}
+
+.men-Custom> li> a{
+	color: #fff;
+}
+.conten-azul >ul> li> .submenu  img{
+position: relative;
+width: 99%;
+overflow: hidden;
+}
+
+.conten-azul> ul >li> .submenu>  ul{	
+	position: relative;	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding:0px 0px;
+	margin: 0px;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 48%;
+}
+
+.conten-azul> ul >li> .submenu>  ul> li{
+	position: relative;
+	float: left;
+	padding:0px 0px;
+	margin: 0px;
+	list-style:none;
+}
+
+
+.conten-azul> ul> li> .submenu a{
+	color: rgb(31, 30, 30);
+	float: left;
+	text-decoration:none;
+	margin: 0px;
+	padding: 12px 0px;	
+}
+.conten-azul> ul> li> .submenu a:hover{
+	color: rgb(134, 132, 132);
+}
+
+/*////////////////////////////*/
+/*iconos shop*/
+.icon-shop{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.icon-shop> ul> .div-buscar{
+	width:300px;
+	height: 45px;
+	position: relative;
+}
+
+.div-buscar > input{
+	position: absolute;
+	display: inline-block;
+	width:0px;
+	height:0px;
+	font-size: 16;
+	border: 1px solid rgb(248, 248, 248);	
+	outline: none;
+	transition: all 0.4s ease;
+}
+
+.contenIcon{	
+	position:relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	right: 0;
+	width: 80px;
+	height: 80px;
+	line-height: 50px;
+	font-size: 25px;
+}
+
+.btn{
+	position:absolute;
+	display: inline-block;
+	top: 0;
+	right: 0;
+	width: 60px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 23px;
+}
+.btn:hover{
+	text-decoration: underline;
+}
+.contenIcon:hover i{
+	text-decoration: underline;
+}
+
+.div-buscar:hover input{
+	height: 40px;
+	width:290px;
+	text-decoration: underline;
+}
+.div-buscar> input:focus{
+	height: 40px;
+	width:290px;
+}

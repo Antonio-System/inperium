@@ -1,0 +1,179 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background: white;
+	font-family: 'Heebo', sans-serif;	
+	font-size: 14px;
+    width:100%;
+	max-width:100%;	
+}
+
+
+.men-woman-tag> ul> li:nth-child(3){
+	background: rgb(248, 248, 248);
+
+}
+.men-woman-tag> ul> li:nth-child(2):hover a{
+    color:rgba(117, 117, 117, 0.74);
+}
+
+.bannerTienda{
+	position: relative;
+	width: 100%;
+	height: 360px;
+	background-image: url("../img/swim.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.bannerTienda> h1{
+	margin: 0px 0px 0px 100px;
+	color: white;
+	font-size: 36px;
+	letter-spacing: 0.1em;
+}
+
+.contenedor-tienda{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.infoResultado{
+	position: relative;
+	width: 1280px;
+	background: rgb(248, 248, 248);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.resultados-migas-cantidad{
+	padding: 25px 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.subCategorias{
+	background:white;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.subCategoria> a{
+	margin: auto 10px;
+
+	color: rgb(43, 41, 41);
+	font-size: 17px;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.subCategorias ul{
+	padding: 20px;
+}
+
+.subCategorias ul li{
+	padding: 5px auto;
+	list-style:none;
+}
+
+.subCategorias ul li a {
+	color: rgb(43, 41, 41);
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.galeriaProductos{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	/*justify-content: space-around;
+	align-items: center;*/
+}
+
+.galeria{
+	background: white;
+}
+.articulos-clm4{
+	margin: 20px 0px;
+	padding: 0;
+	position: relative;
+	/*width: 1280px;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.productos-items{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 30px 10px 30px 10px;
+}
+
+.img-producto{
+	background-image: url("../img/producto-items.jpg");
+	background-size: cover;
+	width: 190px;
+	height: 260px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+.productos-items p{
+	color: rgb(109, 102, 102);
+}
+
+.precioDiv{
+width: 100%;
+border-top:2px solid rgba(218, 211, 211, 0.836);
+}
+
+.btn-quick{
+	display: none;
+	width: 0;
+	height: 0;
+	font-size: 16px;
+	font-weight: 500;
+	color: rgb(110, 98, 98);
+	background: rgba(228, 208, 208, 0.541);
+	border: none;
+	
+}
+
+.img-producto:hover .btn-quick{
+	transition: all 0.5s ease;
+	width: 100%;
+	height: 40px;
+	display: inline-block;
+	background: rgba(248, 248, 248, 0.699);
+	color: rgba(75, 75, 75, 0.897);
+}
+
+h4{
+	letter-spacing: 00.1em;
+}
