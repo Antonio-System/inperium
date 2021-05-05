@@ -28,8 +28,7 @@ footer{
 }
 .conten-icon{
 	margin: 25px;
-
-;}
+}
 
 .conten-link{
 	width: 1280px;
@@ -40,8 +39,8 @@ footer{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-
-	justify-content: space-around;}
+	justify-content: space-around;
+}
 
 .link-footer{
 	display: flex;
@@ -54,10 +53,12 @@ footer{
 
 span{
 	margin: 5px;
+	letter-spacing: 0.08em;
+	color: #202020;
 }
 
 .span-negritas{
-	font-weight: bold;
+	font-weight: 550;
 }
 
 .suscripcion{
@@ -105,7 +106,10 @@ span{
 
 .terminos> span{
 	margin: 0px 20px;
+	font-weight: 100;
+	letter-spacing: 0.08em;
 }
+
 .antex{
 	margin: 0px 0px 50px 0px;
 }
