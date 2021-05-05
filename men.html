@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="css/estilos.css"> -->
     <link rel="stylesheet" href="css/menEstilos.css">
     <link rel="stylesheet" href="css/header-men-women.css">
+    <link rel="stylesheet" href="css/popupSing.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://Kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
 </head>
 
@@ -27,10 +28,24 @@
 
             <div class="menu-superior">
                 <div class="nav-singIn">
-                    <ul>Help</ul>
-                    <ul>US($USD)</ul>
-                    <ul>Find a Store</ul>
-                    <ul>Sing In or Join</ul> 
+                    <ul>
+                        <li><a href="">Help</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">US($USD)</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Find a Store</a></li>
+                    </ul>
+                    <ul >
+                        <li><a href="" >Sing In or Join</a>
+                            <div class="submenu sign-in">
+                                <p>Sign in to get your rewards, free shipping and free returns or access your account savings.</p>
+                                <button id="btn-abrir-popup">Sign in</button>
+                                <a id="btn-abrir-popup-registro">No account? Join now.</a>
+                            </div>
+                        </li>
+                    </ul> 
                 </div>
             </div>
 
@@ -451,6 +466,195 @@
     </div>
 
 
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <h3>Sign in</h3>
+            <div class="icono-inperiun">
+                <img src="img/Logos3.png" alt="">
+            </div>
+            <h4>INPERIUN</h4>
+            <h5>Free shipping, free returns, and rewards.</h5>
+            <form action="">
+                <div class="contenedor-inputs">
+                    <input type="text" placeholder="  Email Address*">
+                    <input type="password" placeholder="  Password*">
+                </div>
+                <div class="contenedor-botones">
+                    <div>
+                        <input type="checkbox" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> Remember Me</label>
+                    </div>
+
+                    <a href="">Forgot your Password?</a>
+                    <input type="submit" class="btn-submit botonsing" value="Sign in">
+                    <input type="submit" class="btn-submit botoncreate" value="Create Account">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay-registro">
+        <div class="popup" id="popup-registro">
+            <a href="#" id="btn-cerrar-popup-registro" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <h3>Create Account</h3>
+            <div class="icono-inperiun">
+                <img src="img/Logos3.png" alt="">
+            </div>
+            <h4>INPERIUN</h4>
+            <h5>Free shipping, free returns, and rewards.</h5>
+            <form action="">
+                <div class="contenedor-name">
+                    <input type="text" placeholder="  First Name*">
+                    <input type="text" placeholder="  Last Name*">  
+                </div>
+
+                <div class="contenedor-botones" name="preferenc">
+                    <label id="preferenc" for="preferenc">Style Preference*</label>
+                    <div class="checPref">
+                        <input type="checkbox" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> Men's</label>
+                        <input type="checkbox" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> Women's</label>
+                    </div>
+                </div>
+                <div class="contenedor-inputs">
+                    <input type="text" placeholder="  Email Address*">
+                    <input type="password" placeholder="  Password*">
+                </div>
+                <div class="contenedor-botones">
+                    <label for="date">Date of Birth*</label>
+                    <div class="date-seletores">
+                        <select name="mm">
+                            <option value="value2" selected>MM</option>
+                            <option value="value1">1</option>
+                            <option value="value3">2</option>
+                            <option value="value1">3</option>
+                            <option value="value3">4</option>
+                            <option value="value1">5</option>
+                            <option value="value3">6</option>
+                            <option value="value1">7</option>
+                            <option value="value3">8</option>
+                            <option value="value1">9</option>
+                            <option value="value3">10</option>
+                            <option value="value1">11</option>
+                            <option value="value3">12</option>
+                          </select>
+                          <select name="dd">
+                            <option value="value2" selected>DD</option>
+                            <option value="value1">1</option>
+                            <option value="value3">2</option>
+                            <option value="value1">3</option>
+                            <option value="value3">4</option>
+                            <option value="value1">5</option>
+                            <option value="value3">6</option>
+                            <option value="value1">7</option>
+                            <option value="value3">8</option>
+                            <option value="value1">9</option>
+                            <option value="value3">10</option>
+                            <option value="value1">11</option>
+                            <option value="value3">12</option>
+                            <option value="value1">13</option>
+                            <option value="value3">14</option>
+                            <option value="value1">15</option>
+                            <option value="value3">16</option>
+                            <option value="value1">17</option>
+                            <option value="value3">18</option>
+                            <option value="value1">19</option>
+                            <option value="value3">20</option>
+                            <option value="value1">21</option>
+                            <option value="value3">22</option>
+                            <option value="value1">23</option>
+                            <option value="value3">24</option>
+                            <option value="value1">25</option>
+                            <option value="value3">26</option>
+                            <option value="value1">27</option>
+                            <option value="value3">28</option>
+                            <option value="value1">29</option>
+                            <option value="value3">30</option>
+                            <option value="value1">31</option>
+
+                          </select>
+                          <select name="yyyy">
+                            <option value="value2" selected>YYYY</option>
+                            <option value="value1">2021</option>
+                            <option value="value3">2020</option>
+                            <option value="value1">2019</option>
+                            <option value="value3">2018</option>
+                            <option value="value1">2017</option>
+                            <option value="value3">2016</option>
+                            <option value="value1">2015</option>
+                            <option value="value3">2014</option>
+                            <option value="value1">2013</option>
+                            <option value="value3">2012</option>
+                            <option value="value1">2011</option>
+                            <option value="value3">2010</option>
+                            <option value="value1">2009</option>
+                            <option value="value3">2008</option>
+                            <option value="value1">2007</option>
+                            <option value="value3">2006</option>
+                            <option value="value1">2005</option>
+                            <option value="value3">2004</option>
+                            <option value="value1">2003</option>
+                            <option value="value3">2002</option>
+                            <option value="value1">2001</option>
+                            <option value="value3">2000</option>
+                            <option value="value1">1999</option>
+                            <option value="value3">1998</option>
+                            <option value="value1">1997</option>
+                            <option value="value3">1996</option>
+                            <option value="value1">1995</option>
+                            <option value="value3">1994</option>
+                            <option value="value1">1993</option>
+                            <option value="value3">1992</option>
+                            <option value="value1">1991</option>
+                            <option value="value1">1990</option>
+                            <option value="value3">1989</option>
+                            <option value="value1">1988</option>
+                            <option value="value3">1987</option>
+                            <option value="value1">1986</option>
+                            <option value="value3">1985</option>
+                            <option value="value1">1984</option>
+                            <option value="value3">1983</option>
+                            <option value="value1">1982</option>
+                            <option value="value3">1981</option>
+                            <option value="value1">1980</option>
+                            <option value="value3">1979</option>
+                            <option value="value1">1978</option>
+                            <option value="value3">1977</option>
+                            <option value="value1">1976</option>
+                            <option value="value3">1975</option>
+                            <option value="value1">1974</option>
+                            <option value="value3">1973</option>
+                            <option value="value1">1972</option>
+                            <option value="value3">1971</option>
+                            <option value="value1">1970</option>
+                            <option value="value3">1969</option>
+                            <option value="value1">1968</option>
+                            <option value="value3">1967</option>
+                            <option value="value1">1966</option>
+                            <option value="value3">1965</option>
+                            <option value="value1">1964</option>
+                            <option value="value3">1963</option>
+                            <option value="value1">1962</option>
+                            <option value="value3">1961</option>
+                            <option value="value1">1960</option>
+                          </select>
+                    </div>
+
+                    <div class="terminos-politicas">
+                        <input type="checkbox" name="vehicle1" value="Bike">
+                        <div class="politica"><p>To continue, I understand and accept the Privacy Policy, the Billabong Crew Terms & Conditions, and the website's Terms Of Use. By clicking Continue To Payment I acknowledge that I am a U.S. or Canadian resident and agree to automatically receive Billabong Crew news and exclusive offers through email and direct mail. I can unsubscribe at any time by clicking the unsubscribe link at the bottom of the emails or by contacting us.</p></div>
+                    </div>
+
+                    <input type="submit" class="btn-submit botonsing" value="Create Account">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
 
     
     <footer>
@@ -534,5 +738,6 @@
             </div>
         </div>
     </footer>
+    <script src="popupSign.js"></script>
 </body>
 </html>
